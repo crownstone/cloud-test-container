@@ -1,0 +1,89 @@
+{
+  "user": {
+    "options": {
+      "emailVerificationRequired": false,
+      "caseSensitiveEmail": false
+    }
+  },
+  "PowerUsage": {
+    "public": true
+  },
+  "EnergyUsage": {
+    "public": true
+  },
+  "PowerCurve": {
+    "public": false
+  },
+  "SphereAccess": {
+    "public": false
+  },
+  "SphereContainer": {
+    "public": false
+  },
+  "UserContainer": {
+    "public": false
+  },
+  "Application": {
+    "public": false
+  },
+  "StoneLocation": {
+    "public": false
+  },
+  "AppInstallation": {
+    "public": true
+  },
+  "App": {
+    "public": false
+  },
+  "Message": {
+    "public": true
+  },
+  "MessageUser": {
+    "public": false
+  },
+  "MessageState": {
+    "public": false
+  },
+  "DeviceSphereMap": {
+    "public": true
+  },
+  "DeviceLocationMap": {
+    "public": true
+  },
+  "SphereKeys": {
+    "public": true
+  },
+  "StoneKeys": {
+    "public": true
+  },
+  "StoneBehaviour": {
+    "public": true
+  },
+  "StoneAbility": {
+    "public": true
+  },
+  "StoneAbilityProperty": {
+    "public": true
+  },
+  "StoneBehaviour": {
+    "public": true
+  },
+  "StoneAbility": {
+    "public": true
+  },
+  "StoneAbilityProperty": {
+    "public": true
+  },
+  "SphereTrackingNumber": {
+    "public": true
+  },
+  "Scene": {
+    "public": true
+  },
+  "SpherePosition": {
+    "public": false
+  },
+  "LocationPosition": {
+    "public": false
+  }
+}
