@@ -33,3 +33,11 @@ Clear the local mongo db in between test runs:
 ```angular2html
 ./reset_mongo_db.sh
 ```
+
+## Accessing the clouds
+
+You can find them here:
+- CloudV1 (https://cloud.crownstone.rocks)
+  - http://127.0.0.1:3000
+- CloudV2 (https://next.crownstone.rocks)
+    - http://127.0.0.1:3050
