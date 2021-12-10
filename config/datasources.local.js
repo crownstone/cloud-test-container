@@ -1,8 +1,4 @@
 module.exports = {
-  sendgridDs: {
-    name: "sendgridDs",
-    connector: "memory"
-  },
   filesDs: { // LOCAL
     "connector": "loopback-component-storage-gridfs",
     "name": "files_v1",
