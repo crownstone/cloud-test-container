@@ -13,3 +13,4 @@ ${SCRIPT_DIR}/scripts/prepare_mock_server.sh
 echo "\nDone\n"
 
 echo "Run ./run_clouds.sh to launch the clouds locally."
+

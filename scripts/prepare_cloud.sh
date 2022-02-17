@@ -1,4 +1,6 @@
 source ~/.zshrc
+source ~/.bashrc
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 SCRIPT_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
@@ -15,6 +17,7 @@ cp ${SCRIPT_DIR}/../config/datasources.local.js     ${CLOUD_DIR}/server/datasour
 cp ${SCRIPT_DIR}/../config/middleware.local.js      ${CLOUD_DIR}/server/middleware.local.js
 cp ${SCRIPT_DIR}/../config/model-config.local.json  ${CLOUD_DIR}/server/model-config.local.json
 
+nvm install 12.22.7
 nvm use 12.22.7
 yarn
 
