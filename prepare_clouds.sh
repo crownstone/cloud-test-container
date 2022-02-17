@@ -8,4 +8,8 @@ echo "Checking out and configuring Cloud V2 (which runs on https://next.crownsto
 ${SCRIPT_DIR}/scripts/prepare_cloud_v2.sh
 echo "\nDone\n"
 
+echo "Checking out and configuring the app bridge mock server... \n"
+${SCRIPT_DIR}/scripts/prepare_mock_server.sh
+echo "\nDone\n"
+
 echo "Run ./run_clouds.sh to launch the clouds locally."

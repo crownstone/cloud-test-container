@@ -4,4 +4,4 @@ IP_ADDRESS=`ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '(
 
 ${SCRIPT_DIR}/reset_mongo_db.sh
 
-(trap 'kill 0' SIGINT; exec ${SCRIPT_DIR}/scripts/run_cloud.sh & exec ${SCRIPT_DIR}/scripts/run_cloud_v2.sh)
+(trap 'kill 0' SIGINT; exec ${SCRIPT_DIR}/scripts/run_cloud.sh & exec ${SCRIPT_DIR}/scripts/run_cloud_v2.sh & exec ${SCRIPT_DIR}/scripts/run_mock_server.sh)
