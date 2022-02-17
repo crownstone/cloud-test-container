@@ -12,5 +12,5 @@ echo "Checking out and configuring the app bridge mock server... \n"
 ${SCRIPT_DIR}/scripts/prepare_mock_server.sh
 echo "\nDone\n"
 
-echo "Run ./run_clouds.sh to launch the clouds locally."
+echo "Run ./run.sh to launch the clouds locally."
 

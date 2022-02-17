@@ -12,7 +12,7 @@ db_data.dropDatabase();
 
 # create tmp js file to instruct mongo
 TMP_FILE_PATH="${SCRIPT_DIR}/tmp_mongo_instructions.js"
-rm ${TMP_FILE_PATH}
+rm -f ${TMP_FILE_PATH}
 echo ${JS_STRING} >> ${TMP_FILE_PATH}
 
 mongo localhost:27017 ${TMP_FILE_PATH}
