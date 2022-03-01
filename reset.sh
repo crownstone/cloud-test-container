@@ -1,13 +1,24 @@
 SCRIPT_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-
-echo "\nResetting bridge mocks...\n"
+echo ""
+echo "Resetting bridge mocks..."
+echo ""
 ${SCRIPT_DIR}/scripts/reset_mocks.sh
-echo "\nDone!\n"
+echo ""
+echo "Done!"
+echo ""
 
-echo "\nResetting mongo database...\n"
+echo ""
+echo "Resetting mongo database..."
+echo ""
 ${SCRIPT_DIR}/scripts/reset_mongo_db.sh
-echo "\nDone!\n"
+echo ""
+echo "Done!"
+echo ""
 
-echo "\nInserting expected initial values into mongo..\n"
+echo ""
+echo "Inserting expected initial values into mongo.."
+echo ""
 ${SCRIPT_DIR}/scripts/insert_mongo_initial_values.sh
-echo "\nDone!\n"
+echo ""
+echo "Done!"
+echo ""
