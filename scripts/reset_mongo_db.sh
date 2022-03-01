@@ -10,6 +10,8 @@ db_users.dropDatabase();
 db_data.dropDatabase();
 "
 
+echo "Resetting mongo database"
+
 # create tmp js file to instruct mongo
 TMP_FILE_PATH="${SCRIPT_DIR}/tmp_mongo_instructions.js"
 rm -f ${TMP_FILE_PATH}
