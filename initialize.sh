@@ -17,6 +17,14 @@ echo "Done!"
 echo ""
 
 
+echo "Checking out and configuring the SSE server (which runs on https://events.crownstone.rocks)... "
+echo ""
+${SCRIPT_DIR}/scripts/prepare_sse_server.sh
+echo ""
+echo "Done!"
+echo ""
+
+
 echo "Checking out and configuring the app bridge mock server... "
 echo ""
 ${SCRIPT_DIR}/scripts/prepare_mock_server.sh

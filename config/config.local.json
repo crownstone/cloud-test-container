@@ -12,5 +12,5 @@
     "clientId":     "",
     "clientSecret": ""
   },
-  "SSEToken": "mySSEtoken"
+  "SSEToken": "sse_token"
 }
